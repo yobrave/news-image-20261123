@@ -27,9 +27,9 @@ was printed to stdout.
 
 ## Badges
 
-[![competition](https://make.fun/badge/competition/news-image-20261123.svg)](https://make.fun/c/news-image-20261123)
-[![rank](https://make.fun/badge/rank/news-image-20261123.svg)](https://make.fun/c/news-image-20261123)
-[![reward](https://make.fun/badge/reward/news-image-20261123.svg)](https://make.fun/c/news-image-20261123)
+[![make.fun · news-image-20261123](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![rank](https://make.fun/badge/news-image-20261123/yobrave/news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![reward](https://make.fun/badge/news-image-20261123/yobrave/news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
 Bounty pool and rules live on the competition page:
 https://make.fun/c/news-image-20261123
