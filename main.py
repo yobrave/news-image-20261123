@@ -23,7 +23,11 @@ import sys
 MAX_BYTES = 1024 * 1024
 MAX_DIM = 1024
 ENTRY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
-OUTPUT = ENTRY  # pass-through: reproduce the artifact in place
+# Reproduction target: the harness mounts the repository read-only and gives
+# us a writable output directory via MAKEFUN_OUTPUT_DIR; fall back to the
+# entry's own directory for local runs.
+OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR") or os.path.dirname(ENTRY)
+OUTPUT = os.path.join(OUTPUT_DIR, "entry.png")
 
 
 def fail(reason: str) -> None:
